@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className='h-[100vh] flex flex-col justify-end'>
-      <ul className='h-[50vh] flex items-end mb-40 '>
+      <ul className='h-[50vh] flex items-end w-max '>
         {data.map((item, key) => {
           const getProps = {
             item,
