@@ -1,1 +1,15 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  /* border-radius: 40px; */
+  background-color: rgb(233, 230, 230, 0);
+}
 
+.card .card_inner {
+  box-shadow: 0px 2px 2px 2px rgb(233, 230, 230, 0);
+}

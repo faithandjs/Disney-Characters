@@ -1,4 +1,4 @@
-export interface dataProp {
+interface dataProp {
   id: number;
   name: string;
   movie_name: string;
@@ -11,3 +11,4 @@ export interface dataProp {
   movie_logo: string;
   clips: string[];
 }
+
